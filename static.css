@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #110b11;
+	color: #ecebf3;
+}
+
+#start {
+	text-align: center;
+	padding-top: 281px;
+	font-family: baskerville-urw, serif;
+	font-size: 45px;
+	font-weight: 500;
+	
+
+}
+
+#big-start {
+	font-size: 60px;
+	padding-bottom: 115px;
+	letter-spacing: normal;
+}
+
+ul {
+	list-style: none;
+}
+
