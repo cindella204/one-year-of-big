@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    background-color: #110b11;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-size: 1.875em;
+    line-height: 1.25em;
+    color: #ecebf3;
+	text-align: center;
+	align-content: center;
+}
+
+#audio-player{
+	opacity: 0;
+}
+
+#audio-instructions {
+    margin-top: -91px;
+}
+
+em {
+	font-weight: 700px;
+	font-style: normal;
+}
+
+.intro {
+    margin-top: 8em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+	
+.accent {
+	font-family: baskerville-urw, serif;
+	font-weight: 500px;
+	font-size: 45px;
+	
+}
+
+#first-graf {
+    margin-top: 64%;
+}
