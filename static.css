@@ -112,6 +112,10 @@ div {
 
 }
 
+h1.a {
+	font-weight: 500;
+}
+
 #big-start {
 	color: #ecebf3;
 	font-size: 60px;
