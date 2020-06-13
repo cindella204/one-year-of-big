@@ -11,6 +11,13 @@ body {
 	
 }
 
+a.nav {
+	font-family: baskerville-urw, serif;
+	text-size: 25px;
+	text-decoration: none;
+	color: #ecebf3;
+}
+
 img {
 	width: 100%;
 }
@@ -19,21 +26,29 @@ img {
 	margin-top: -10px;
 }
 
+.v-tighten {
+	width: 80%;
+}
+
 .h {
 	width: auto;
 	max-height: 650px;
 }
 
-strong { /*THIS IS A PLACEHOLDER FOR IMAGES*/
-	color: #ff3399;
-	font-style: oblique;
-	font-decoration: underline;
+strong { 
+	font-family: baskerville-urw, serif;
+	text-size: 25px;
+	text-decoration: none;
+	font-weight: 400;
 }
 
 .intro {
     margin-top: 8em;
 }
 
+.chapter {
+	margin-top: 300px;
+}
 p {
 	text-align: center;
 	align-content: center;
@@ -51,6 +66,8 @@ p.accent {
 	margin-bottom: 2em;
 	
 }
+
+
 
 /*INDIVIDUAL SECTION STYLES*/
 
@@ -111,6 +128,10 @@ p.accent {
 	font-family:monospace;
 }
 
+.fear p.accent {
+	color: #827ec7;
+}
+
 .outro {
 	color: #827ec7;
 }
@@ -133,8 +154,13 @@ p.accent {
 	
 }
   
-  .card {
+.card {
     display: inline-block;
+}
+
+.side-image {
+	max-height: 650px;
+	width: auto;
 }
 
 .resent-fade-flexbox {
@@ -153,9 +179,75 @@ p.accent {
   height: 80px;
   margin-bottom: 20px;
   width: 100%;
-  -webkit-overflow-scrolling: touch;
+  webkit-overflow-scrolling: touch; 
+	
+}
+	
+.scrolling-wrapper, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+	display: none;
 }
     
+
+.side-image {
+	opacity: 0%;
+	animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+	
+}
+#resent2 {
+	animation-delay: 2s;
+}
+
+#resent3 {
+	animation-delay: 3s;
+}
+
+#resent4 {
+	animation-delay: 4s;
+}
+
+#resent5 {
+	animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
 
 /*ANIMATION*/
 

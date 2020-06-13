@@ -3,6 +3,16 @@
 
 body {
 	background-color: #110b11;
+	text-align: center;
+	align-content: center;
+}
+
+iframe {
+	align-content: center;
+}
+
+img.center {
+	width: 100%;
 }
 
 p {
@@ -46,9 +56,9 @@ a {
 	color: #a7a2a9;
 }
 a.nav {
+	font-family: baskerville-urw, serif;
 	text-decoration: none;
 	color: #ecebf3;
-	font-family: baskerville-urw, serif;
 	font-weight: 400;
 }
 
